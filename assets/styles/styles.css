@@ -1,0 +1,16 @@
+/********************** General settings ***************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Work Sans",sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
+.container {
+    width: 1140px;
+    min-width: 1140px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
