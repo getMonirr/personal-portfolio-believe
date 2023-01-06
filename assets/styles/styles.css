@@ -1,16 +1,56 @@
 /********************** General settings ***************************/
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: "Work Sans",sans-serif;
-    font-style: normal;
-    font-size: 16px;
+body {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
 }
 .container {
-    width: 1140px;
-    min-width: 1140px;
-    max-width: 1140px;
-    margin: 0 auto;
+  width: 1140px;
+  min-width: 1140px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/********************** Hero section ***************************/
+.header {
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.hero-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  color: #ffffff;
+}
+.hero-content-wrap {
+  text-align: right;
+  width: 550px;
+}
+.hero-title {
+  text-align: right;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+}
+.hero-description {
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+.btn-primary {
+  padding: 21px 26px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  line-height: 23px;
+  color: #005fac;
 }
