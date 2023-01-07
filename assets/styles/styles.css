@@ -124,17 +124,76 @@ body {
   background-blend-mode: soft-light; */
 
   /* background solition two */
-  background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(../images/watch.png);
   border-radius: 8px;
 
   margin: 130px 0;
 }
 .call-now-section .content-title {
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 64px;
   margin-bottom: 24px;
 }
 .call-now-section .btn-primary {
   margin-left: 64px;
   padding: 21px 36px;
+}
+/********************** footer section ***************************/
+footer {
+  background: #151414;
+  color: #ffffff;
+  padding: 130px 0;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.social-info {
+  max-width: 44%;
+}
+.social-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+.social-description {
+  line-height: 26px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+.social-link a {
+  text-decoration: none;
+  margin-right: 17px;
+}
+.newslatter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.newslatter-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #F8F8F8;
+  margin-bottom: 31px;
+}
+.newslatter .email {
+  padding: 21px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.newslatter input::placeholder {
+  font-size: 18px;
+  line-height: 21px;
+  color: #f3f3f3;
+}
+.newslatter .btn-primary {
+  padding: 21px 36px;
+  background: #005FAC;
+  color: #FFFFFF;
 }
