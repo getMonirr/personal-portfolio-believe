@@ -31,7 +31,8 @@ body {
 .header {
   background-image: url("../images/banner/banner3.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-position: center center;
+  background-size: cover;
 }
 .hero-content {
   height: 100vh;
@@ -70,9 +71,9 @@ body {
 /********************** My failures section ***************************/
 .failure-content {
   display: flex;
-  height: 100vh;
   align-items: center;
   gap: 87px;
+  padding: 130px 0;
 }
 .failure-right-content {
   padding-right: 70px;
@@ -168,15 +169,13 @@ footer {
   margin-right: 17px;
 }
 .newslatter {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: 30%;
 }
 .newslatter-title {
   font-weight: 600;
   font-size: 25px;
   line-height: 29px;
-  color: #F8F8F8;
+  color: #f8f8f8;
   margin-bottom: 31px;
 }
 .newslatter .email {
@@ -185,6 +184,7 @@ footer {
   border-radius: 8px;
   background-color: transparent;
   width: 100%;
+  box-sizing: border-box;
   margin-bottom: 1rem;
 }
 .newslatter input::placeholder {
@@ -194,6 +194,6 @@ footer {
 }
 .newslatter .btn-primary {
   padding: 21px 36px;
-  background: #005FAC;
-  color: #FFFFFF;
+  background: #005fac;
+  color: #ffffff;
 }
