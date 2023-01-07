@@ -7,6 +7,8 @@ body {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
 .container {
   width: 1140px;
@@ -14,7 +16,17 @@ body {
   max-width: 1140px;
   margin: 0 auto;
 }
-
+/* for section content general style */
+.content-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+.content-description {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
 /********************** Hero section ***************************/
 .header {
   background-image: url("../images/banner/banner3.png");
@@ -53,4 +65,22 @@ body {
   border: 0;
   line-height: 23px;
   color: #005fac;
+  cursor: pointer;
+}
+/********************** My failures of previous year ***************************/
+.failure-content {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  gap: 87px;
+}
+.failure-right-content {
+  padding-right: 70px;
+}
+.failure-right-content ul li {
+  list-style-type: none;
+}
+.failure-right-content ul li i {
+  color: #16D887;
+  margin-right: 10px;
 }
