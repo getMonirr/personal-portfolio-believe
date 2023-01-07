@@ -68,6 +68,56 @@ body {
   color: #005fac;
   cursor: pointer;
 }
+/********************** Summary section  ***************************/
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #F3F3F3;
+  width: 80%;
+  height: 150px;
+  padding: 0 20px;
+  border-radius: 30px;
+}
+.summary-wrap {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient( #005fac 0%, rgba(0, 95, 172, 0.3) 100%);
+  border-radius: 10px;
+}
+.summary-content {
+  text-align: center;
+  margin-bottom: 70px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.summary-content .content-title , .summary-content .content-description {
+  color: #ffffff;
+}
+.summary-item {
+  display: flex;
+  align-items: center;
+}
+.summary-item i {
+  font-size: 50px;
+  color: #39B09D;
+  margin-right: 10px;
+}
+.summary-number {
+  font-size: 2.5rem;
+  color: #39B09D;
+  font-weight: 700;
+  line-height: 40px;
+}
+.summary-description {
+  color: #a9a9a9;
+  font-size: 1rem;
+  margin-left: 8px;
+}
+
 /********************** My failures section ***************************/
 .failure-content {
   display: flex;
