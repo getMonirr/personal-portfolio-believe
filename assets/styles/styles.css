@@ -248,6 +248,16 @@ footer {
 }
 
 /* responsive styles */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .container {
+    width: unset;
+    padding: 0 30px;
+  }
+  .failure-content img {
+    width: 50%;
+  }
+}
+/* for mobile */
 @media only screen and (max-width: 576px) {
   .container {
     width: 100%;
@@ -312,7 +322,7 @@ footer {
   /* plane-section */
   section.planner-section {
     margin-top: 50px;
-}
+  }
   .plans-wrap {
     flex-direction: column;
     gap: 60px;
@@ -322,7 +332,7 @@ footer {
     background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0.5) 100%);
     border-radius: 0;
   }
-  .call-now-section .content-title  {
+  .call-now-section .content-title {
     margin-left: 0;
   }
   .call-now-section .btn-primary {
